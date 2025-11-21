@@ -1,0 +1,22 @@
+# Ignore raw and processed images
+data/raw/
+data/processed/
+
+# Ignore all model weights except the final model
+models/*.h5
+models/*.ckpt
+models/*.weights
+
+# Do NOT ignore your final model
+!models/sign_efficientnetB2_competition.keras
+
+# Ignore other big Keras files produced during experiments
+models/sign_efficientnetB0_*.keras
+models/sign_efficientnetB1_*.keras
+models/sign_efficientnetB2_*_competition*.keras
+models/trained_model.keras
+
+# Ignore temporary or cache files
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
