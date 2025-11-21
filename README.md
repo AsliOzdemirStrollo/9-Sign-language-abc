@@ -54,6 +54,8 @@ You can load it in Keras like this:
 import tensorflow as tf
 
 model = tf.keras.models.load_model("sign_efficientnetB2_clean_competition.keras")
+```
+
 ---
 
 ## 🧑‍💻 Approach  
