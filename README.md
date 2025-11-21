@@ -124,7 +124,7 @@ The model achieved **100% accuracy** on the validation/test split used for the c
 Below are some random test images with their predicted and true labels.  
 The model correctly identifies all A, B, and C signs across different backgrounds, skin tones, angles, and lighting:
 
-<img src="images/predictions.png" alt="Sample Predictions" width="800"/>
+<img src="images/predictions.png" alt="predictions" width="800"/>
 
 ---
 
