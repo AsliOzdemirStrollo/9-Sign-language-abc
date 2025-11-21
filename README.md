@@ -26,15 +26,34 @@ The goal of this project is to train a model that can correctly identify the let
   - Image augmentation  
   - L2 regularisation  
   - Transfer learning experiments (B0, B1, B2)  
-- 🤖 **models/sign_efficientnetB2_clean_competition.keras** — ⭐ final winning model  
+- 🤖 **Final model (sign_efficientnetB2_clean_competition.keras)** — available via Google Drive (see “Download the Trained Model” below)
+- 🤖 **Legacy models (stored in `models/`):**
+  - `sign_efficientnet_competition.keras`
+  - `sign_efficientnetB2_competition.keras`  
+  *(earlier competition models, superseded by the clean B2 model on Google Drive)*
 - 📂 images/ — project visuals:
   - dataset-card-1.png — dataset preview  
   - accuracy.png — fine-tuning accuracy curve  
   - confusion_matrix.png — validation confusion matrix  
   - predictions.png — sample prediction grid  
 - 📄 README.md — project documentation  
-- 📄 .gitignore  
+- 📄 .gitignore
+  
+---
 
+## 📥 Download the Trained Model  
+
+Because of GitHub file size limits, the final competition-winning model  
+`sign_efficientnetB2_clean_competition.keras` is hosted on Google Drive:
+
+👉 [Download the final EfficientNetB2 model](https://drive.google.com/file/d/14-rianFv4c1xhsWUCpd8InXstBCEkDsU/view?usp=drive_link)
+
+You can load it in Keras like this:
+
+```python
+import tensorflow as tf
+
+model = tf.keras.models.load_model("sign_efficientnetB2_clean_competition.keras")
 ---
 
 ## 🧑‍💻 Approach  
