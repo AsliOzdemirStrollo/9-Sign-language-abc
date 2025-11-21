@@ -129,7 +129,7 @@ This plot shows the accuracy during the fine-tuning phase of **EfficientNetB2 Cl
 ---
 
 ### 🟪 Confusion Matrix — Perfect Classification  
-<img src="images/confusion_matrix.png" alt="Confusion Matrix" width="500"/>
+<img src="images/confusion_mx.png" alt="Confusion Matrix" width="500"/>
 
 | Class | Correct | Misclassified |
 |:-----|--------:|--------------:|
