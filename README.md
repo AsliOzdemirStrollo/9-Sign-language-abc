@@ -20,14 +20,18 @@ The goal of this project is to train a model that can correctly identify the let
 ---
 
 ## 📂 Repository Contents  
-- 📓 **notebooks/B2_TheWinnerModel.ipynb** — ⭐ **final winning notebook (EfficientNetB2)**  
+- 📓 **notebooks/B2_TheWinnerModel.ipynb** — ⭐ final winning notebook (EfficientNetB2)  
 - 📓 notebooks/ — other experiment notebooks:
   - CNN baseline  
   - Image augmentation  
   - L2 regularisation  
   - Transfer learning experiments (B0, B1, B2)  
-- 🤖 **models/sign_efficientnetB2_clean_competition.keras** — ⭐ **final winning model**  
-- 📂 images/ — project visuals (including dataset-card-1.png)  
+- 🤖 **models/sign_efficientnetB2_clean_competition.keras** — ⭐ final winning model  
+- 📂 images/ — project visuals:
+  - dataset-card-1.png — dataset preview  
+  - accuracy.png — fine-tuning accuracy curve  
+  - confusion_matrix.png — validation confusion matrix  
+  - predictions.png — sample prediction grid  
 - 📄 README.md — project documentation  
 - 📄 .gitignore  
 
@@ -91,6 +95,36 @@ The goal of this project is to train a model that can correctly identify the let
 | C | 1.00 | 1.00 | 1.00 |
 
 > 🚀 The EfficientNetB2 model generalised best and became the winner of the internal competition.
+
+---
+
+## 📈 Model Performance (EfficientNetB2 Clean — Winner Model)
+
+### 🔥 Final Fine-Tuning Accuracy Curve  
+<img src="images/accuracy.png" alt="Training Accuracy Curve" width="700"/>
+
+This plot shows the accuracy during the fine-tuning phase of **EfficientNetB2 Clean**, where the model quickly stabilizes above **97%** and validation accuracy reaches **100%**.
+
+---
+
+### 🟪 Confusion Matrix — Perfect Classification  
+<img src="images/confusion_matrix.png" alt="Confusion Matrix" width="500"/>
+
+| Class | Correct | Misclassified |
+|:-----|--------:|--------------:|
+| **A** | 24 | 0 |
+| **B** | 23 | 0 |
+| **C** | 22 | 0 |
+
+The model achieved **100% accuracy** on the validation/test split used for the competition.
+
+---
+
+## 🖼️ Example Predictions  
+Below are some random test images with their predicted and true labels.  
+The model correctly identifies all A, B, and C signs across different backgrounds, skin tones, angles, and lighting:
+
+<img src="images/predictions.png" alt="Sample Predictions" width="800"/>
 
 ---
 
