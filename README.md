@@ -1,7 +1,7 @@
 # 🤟 Sign Language ABC Classification  
 
 ## Deep Learning Project — WBS Coding School  
-This project uses **Convolutional Neural Networks (CNNs)** and **transfer learning** to classify hand signs for the letters **A**, **B**, and **C** in German Sign Language (DGS).  
+This project uses **TensorFlow/Keras**, **Convolutional Neural Networks (CNNs)** and **transfer learning** to classify hand signs for the letters **A**, **B**, and **C** in German Sign Language (DGS).  
 Using EfficientNet and careful data preparation, the final model reached **91.92% accuracy** on the hidden competition test set.
 
 ---
