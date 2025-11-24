@@ -150,10 +150,10 @@ The model correctly identifies all A, B, and C signs across different background
 ---
 
 ## 🛠 Tools Used  
-1. **Python** — TensorFlow, Keras, NumPy  
-2. **EfficientNetB2** — transfer learning backbone  
-3. **Matplotlib** — visualisations  
-4. **Jupyter Notebooks** — experimentation  
+1. **Python** — TensorFlow/Keras (model training & transfer learning), NumPy  
+2. **EfficientNetB2** — pretrained backbone for feature extraction  
+3. **Matplotlib** — visualisations and plots  
+4. **Jupyter Notebooks** — experimentation and development    
 
 ---
 
